@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./clusters/my-cluster
+  path: ./clusters/prod/k0-eks-tooling-prod-eu-01
   prune: true
   sourceRef:
     kind: GitRepository
